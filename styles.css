@@ -1,0 +1,41 @@
+/** {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}*/
+.footer {
+    background-color: #f9f6f1;
+    padding: 50px 0;
+}
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+}
+.footer-text__title {
+    font-size: 30px;
+}
+.footer-text__desc {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 40px 0;
+}
+.button__link {
+    background-color: #d7b399;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 15px;
+}
+.footer__image {
+    background-image: url("image/footer-image_bg.png");
+    background-size: cover;
+    height: 377px;
+}
+.footer__price {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+ }
